@@ -224,14 +224,31 @@ Hecho Por Juan Acevedo
     </div>
 
     <!------ LUISA CAMBIO IMAGENES  ---------->
-    <div class="row">
-        <div class="col-md-6 animate-box" align="right">
-            <img src="images/gafas2.jpg" class="img-rounded" alt="network" class="img-responsive" style="width:85%;height:85%;">
-        </div>
+    <hr style="width:50%">
 
-        <div class="col-md-6 animate-box" align="left">
-            <img src="images/gafas2.jpg" class="img-rounded" alt="network" class="img-responsive" style="width:85%;height:85%;">
+    <div class="col-md-6 animate-box" align="center">
+        <div class="feature-center animate-box" data-animate-effect="fadeIn">
+
+            <h1 style="color: #FF0000">
+                <strong>OJOS</strong>
+            </h1>
         </div>
+        <a href="eyes.html">
+            <img src="images/gafas3.jpeg" class="img-rounded" alt="network" class="img-responsive" style="width:85%;height:85%;">
+        </a>
+    </div>
+
+    <div class="col-md-6 animate-box" align="center">
+        <div class="feature-center animate-box" data-animate-effect="fadeIn">
+
+            <h1 style="color: #FF0000">
+                <strong>SOL</strong>
+            </h1>
+        </div>
+        <a href="sun.html">
+            <img src="images/gafas2.jpeg" class="img-rounded" alt="network" class="img-responsive" style="width:85%;height:85%;">
+        </a>
+    </div>
     </div>
 
 
@@ -362,90 +379,78 @@ Hecho Por Juan Acevedo
         </div>
     </div>
 
-
-
-    <div id="gtco-subscribe" style="background-image: url(images/sun.jpg); background-color: transparent;">
+    <header id="gtco-header" class=" gtco-cover-md" role="banner" style="background-image: url(images/sun.jpg)" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
         <div class="gtco-container">
-            <div class="row animate-box">
+            <div class="row row-mt-15em">
                 <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
                     <!-- Address form -->
 
-                    <h2>Suscríbase</h2>
+                    <div class="col-md-12 mt-text text-center animate-box" data-animate-effect="fadeInUp">
+                        <h1 style="color:#FF0000">
+                            <strong>Experiencia</strong>
+                        </h1>
+                    </div>
 
                     <!-- full-name input-->
-                    <div class="control-group">
-                        <label class="control-label">Nombres:</label>
-                        <div class="controls">
-                            <input id="full-name" name="full-name" type="text" placeholder="Nombres" class="input-xlarge">
-                            <p class="help-block"></p>
-                        </div>
-                    </div>
-                    <!-- address-line1 input-->
-                    <div class="control-group">
-                        <label class="control-label">Dirección de Residencia </label>
-                        <div class="controls">
-                            <input id="address-line1" name="address-line1" type="text" placeholder="Dirección" class="input-xlarge">
-                            <p class="help-block"></p>
-                        </div>
-                    </div>
-                    <!-- address-line2 input-->
-                    <div class="control-group">
-                        <label class="control-label"></label>
-                        <div class="controls">
-                            <input id="address-line2" name="address-line2" type="text" placeholder="Dirección" class="input-xlarge">
-                            <p class="help-block"></p>
-                        </div>
-                    </div>
-                    <!-- city input-->
-                    <div class="control-group">
-                        <label class="control-label">Cuidad </label>
-                        <div class="controls">
-                            <input id="city" name="city" type="text" placeholder="Cuidad" class="input-xlarge">
-                            <p class="help-block"></p>
-                        </div>
-                    </div>
-                    <!-- region input-->
-                    <div class="control-group">
-                        <label class="control-label">Región</label>
-                        <div class="controls">
-                            <input id="region" name="region" type="text" placeholder="Región" class="input-xlarge">
-                            <p class="help-block"></p>
-                        </div>
-                    </div>
-                    <!-- postal-code input-->
-                    <div class="control-group">
-                        <label class="control-label">Email>
-                            <div class="controls">
-                                <input id="postal-code" name="postal-code" type="text" placeholder="Email" class="input-xlarge">
-                                <p class="help-block"></p>
-                            </div>
-                    </div>
-                    <!-- country select -->
-                    <div class="control-group">
-                        <label class="control-label">País</label>
-                        <div class="controls">
-                            <select id="country" name="country" class="input-xlarge">
-                                <option value="" selected="selected">(Seleccione su País)</option>
-                                <option value="AF">Colombia</option>
-                                <option value="AL">Ecuador</option>
-                                <option value="DZ">Mexico</option>
-                                <option value="AS">Peru</option>
-                                <option value="AR">Panama</option>
-                                <option value="AM">Venezuela</option>
-                            </select>
-                            <br/>
-                            <br/>
+                    <form>
 
-                            <button type="submit" class="btn btn-default btn-block">Registrar</button>
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="sr-only" for="name">Nombres</label>
+
+                                <input type="text" id="name" class="form-control" style="border:1px solid white" placeholder="Nombres">
+                            </div>
+
                         </div>
-                    </div>
-                    </fieldset>
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="sr-only" for="dire">Dirección de residencia</label>
+                                <input type="text" id="dire" class="form-control" style="border:1px solid white" placeholder="Dirección de residencia">
+                            </div>
+
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="sr-only" for="corre">Correo</label>
+                                <input type="text" id="corre" class="form-control" style="border:1px solid white" placeholder="Correo">
+                            </div>
+
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <label class="sr-only" for="reg">Región</label>
+                                <input type="text" id="reg" class="form-control" style="border:1px solid white" placeholder="Región">
+                            </div>
+
+                        </div>
+                        <div class="row form-group">
+                            <div class="col-md-12">
+                                <select style="border:1px solid white" id="country" name="country" class="form-control">
+                                    <option sytle="color:#FF0000" value="" selected="selected">(Seleccione su País)</option>
+                                    <option value="AF" sytle="color:#FF0000">Colombia</option>
+                                    <option value="AL" sytle="color:#FF0000">Ecuador</option>
+                                    <option value="DZ" sytle="color:#FF0000"> Mexico</option>
+                                    <option value="AS">Peru</option>
+                                    <option value="AR">Panama</option>
+                                    <option value="AM">Venezuela</option>
+                                </select>
+                                <br/>
+
+                            </div>
+                        </div>
+
+                        <div class="text-center">
+                            <a style="background-color:#FF0000; color: #fff" href="https://assets.ray-ban.com/is/content/RayBan/video_rb_hero_page_remix"
+                                class="btn btn-primary btn-lg popup-vimeo">Registro Aquí</a>
+                        </div>
                     </form>
                 </div>
             </div>
-
         </div>
-    </div>
+    </header>
+
+
 
 
     <footer id="gtco-footer" role="contentinfo">
